@@ -8,14 +8,17 @@ interface Question {
 }
 
 const questions: Question[] = [
-  { question: "¿Eres más de?", options: ["Día", "Noche"] },
+  { question: "¿Eres más de planes de..?", options: ["Día", "Noche"] },
   { question: "¿Qué te mola más?", options: ["Pizza", "Hamburguesa"] },
-  { question: "¿Dónde imaginas que pasarás tu jubilación?", options: ["Ciudad", "Pueblo"] },
+  { question: "¿Dónde imaginas tu vejez?", options: ["Pisazo en la ciudad", "casita de pueblo"] },
   { question: "¿Cine?", options: ["Con palomitas, obvio", "Sin palomitas, el cine es un lugar sagrado"] },
-  { question: "Si hicieras un resumen de todas tus conversaciones, ¿eres más de...?", options: ["Hablar, tengo mucho que contar", "Escuchar, tengo mucho que aprender"] },
+  { question: "¿Eres más de...?", options: ["Hablar, tengo mucho que contar", "Escuchar, tengo mucho que aprender"] },
   { question: "Hace un frío que pela, tienes una deliciosa galleta con pepitas de choco. ¿Con qué la acompañas?", options: ["Café", "Té"] },
-  { question: "En un debate, ¿Qué crees que haces más?", options: ["Observar y pensar", "Compartir y preguntar"] },
+  { question: "En una discusión, ¿Qué crees que haces más?", options: ["Tener la razón", "Convencer al otro"] },
+  { question: "Siesta ¿Dónde?", options: ["Cama", "Sofá"] },
   { question: "Tienes un año sabático, ¿a dónde te largas?", options: ["Playa", "Montaña"] },
+  { question: "¿Qué prefieres?", options: ["Trompeta", "violín"] },
+  { question: "Has perdido las llaves de tu casa", options: ["Me voy a casa de otra persona, ya se solucionará más tarde", "Esto se tiene que solucionar ya, hago lo que sea para conseguir las llaves"] },
 ];
 
 export default function Home() {
