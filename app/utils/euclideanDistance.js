@@ -1,4 +1,3 @@
-// 1. List of birds with their profiles (8 answers for each bird)
 const birds = [
     { name: "Perdiz", profile: [0,0,0,0,0] },
     { name: "Abubilla", profile: [0,0,0,0,0] },
@@ -8,7 +7,7 @@ const birds = [
     { name: "Cigúeña negra", profile: [0,0,0,0,0] },
 ];
 
-// 2. Function to calculate Euclidean distance
+// to calculate Euclidean distance
 function calculateDistance(userProfile, birdProfile) {
     let sum = 0;
     for (let i = 0; i < userProfile.length; i++) {
@@ -17,7 +16,7 @@ function calculateDistance(userProfile, birdProfile) {
     return Math.sqrt(sum);
 }
 
-// 3. Function to find the most similar bird
+// to find the most similar bird
 function findClosestBird(userResponses) {
     let closestBird = null;
     let minDistance = Infinity;
@@ -33,8 +32,6 @@ function findClosestBird(userResponses) {
     return closestBird;
 }
 
-// 4. Example usage (user responses)
-const userResponses = [1, 2, 2, 2, 1, 2, 1, 2];
-const result = findClosestBird(userResponses);
-
-console.log(`Your bird is: ${result.name}`);
+// const userResponses = [1, 2, 2, 2, 1, 2, 1, 2];
+// const result = findClosestBird(userResponses);
+//console.log(`Your bird is: ${result.name}`);
